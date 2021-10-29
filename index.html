@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Doctor Who Quiz</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+<div class="container" class="form-group">
+<div class="row" class="form-group">
+<div class="col-md-8" class="form-group">
+<h1 class="form-text">Doctor Who Quiz</h1>
+<p class="form-text text-muted">Doctor Who is a British science-fiction television show that was originally created in the 1960's and rebooted in the early 2000', both to great sucess. The following quiz is based on the show's Wikipedia page, which can be found <a href="https://en.wikipedia.org/wiki/Doctor_Who">here</a>. Additional information can be found on the Doctor Who wiki, linked <a href="https://tardis.fandom.com/wiki/Doctor_Who_Wiki">here</a>.</p>
+<form>
+
+<label class="form-control-label">What is the name of the Doctor's time machine?: <input class="form-control" type="text" name="name" id="name"></label><br>
+<label class="form-control-label">Who is Bad Wolf?: <input class="form-control" type="text" name="bad" id="wolf"></label><br>
+<label class="form-control-label">What is the first rule of traveling with the Doctor?<br>
+<textarea class="form-control" name="lies" id="lies" rows="4">The Doctor...</textarea></label><br>
+<div class="form-check">
+<label class="form-control-label form-check-label">
+Who Played the 11th Doctor?<br>
+<input class="form-control form-check-input form-control-sm" type="radio" name="matt" value="PeterCapauldi"> Peter Capaldi<br>
+<input class="form-control form-check-input form-control-sm" type="radio" name="matt" value="MattSmith"> Matt Smith<br>
+<input class="form-control form-check-input form-control-sm" type="radio" name="matt" value="DavidTennant"> David Tennant<br>
+<input class="form-control form-check-input form-control-sm" type="radio" name="matt" value="ChristopherEccleston"> Christopher Eccleston<br>
+</label><br>
+</div>
+<div class="form-check">
+<label class="form-control-label form-check-label">
+Which of these companions have red hair?<br>
+<input class="form-control form-check-input form-control-sm" type="checkbox" name="red" value="DonnaNoble"> Donna Noble<br>
+<input class="form-control form-check-input form-control-sm" type="checkbox" name="red" value="RoseTyler"> Rose Tyler<br>
+<input class="form-control form-check-input form-control-sm" type="checkbox" name="red" value="AmyPond"> Amy Pond<br>
+<input class="form-control form-check-input form-control-sm" type="checkbox" name="red" value="ClaraOswald"> Clara Oswald<br>
+</label><br>
+</div>
+<label class="form-control-label">
+Who is River Song's Daughter?
+<select class="form-control" name="river" id="song">
+<option value="SaraJane">Sara Jane</option>
+<option value="RoseTyler">Rose Tyler</option>
+<option value="RiverSong">River Song</option>
+<option value="MarthaJones">Martha Jones</option>
+<option value="TheMaster">The Master</option>
+<option value="KiraNerys">Kira Nerys</option>
+</select>
+</label><br>
+<input class="form-control" type="submit" value="Submit">
+<input class="form-control" type="reset" value="Start over">
+</form>
+</div>
+</div>
+</div>
+</body>
+
+</html>
